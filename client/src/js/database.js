@@ -32,7 +32,7 @@ export const getDb = async () => {
   console.log('GET from the database');
 
   // Create a connection to the database database and version we want to use.
-  const jatetDb = await openDB('jate', 1);
+  const jateDb = await openDB('jate', 1);
 
   // Create a new transaction and specify the database and data privileges.
   const tx = jateDb.transaction('jate', 'readonly');
