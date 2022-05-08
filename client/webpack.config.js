@@ -20,16 +20,16 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template:"./index.html",
-        title: "A Cool Text Editor"
+        title: "Just Another Text Editor"
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "src-sw.j,s"
+        swDest: "src-sw.js"
       }),
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'A Cool Text Editor',
+        name: 'Just Another Text Editor',
         short_name: 'Jate',
         description: 'A Text Editor that is Cool',
         background_color: '#225ca3',
