@@ -30,7 +30,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'A Cool Text Editor',
-        short_name: 'Cool',
+        short_name: 'Jate',
         description: 'A Text Editor that is Cool',
         background_color: '#225ca3',
         theme_color: '#225ca3',
